@@ -1,9 +1,9 @@
 {
     "name": "hananils/kirby-designer",
-    "description": "Designer is a layout tool for your templates. It takes markup from your fields, from static or external sources and let’s you manipulate it with a Kirby-like interface. Need to change headline hierarchy? Need to add a class or extract content? Designer has you covered.",
+    "description": "Designer is a layout tool for your templates. It takes markup from your fields, from static or external sources and let's you manipulate it with a Kirby-like interface. Need to change headline hierarchy? Need to add a class or extract content? Designer has you covered.",
     "license": "MIT",
     "type": "kirby-plugin",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
