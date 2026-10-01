@@ -12,7 +12,7 @@ It’s easy to run into situations, where the markup available does not suit the
 </div>
 ```
 
-[Read more how to get started with Designer in our guides](https://kirby.hananils.test/plugins/designer/getting-started).
+[Read more how to get started with Designer in our guides](https://kirby.hananils.de/plugins/designer/getting-started).
 
 > [!TIP]
 > Having a designer at hand is always handy. This is not only true when layouting fields, but can also be very helpful when dealing with content from external APIs or virtual pages.
@@ -25,7 +25,7 @@ Your options to tailor your markup do not stop at headlines, but allow you to se
 <?= $page->text()->designer()->select('p:first-of-type')->addClass('introduction'); ?>
 ```
 
-[Read more on selections](https://kirby.hananils.test/plugins/designer/selecting-elements).
+[Read more on selections](https://kirby.hananils.de/plugins/designer/selecting-elements).
 
 ### Filtering elements
 
@@ -41,7 +41,7 @@ $paragraphs = $designer->filter('p');
 $startingInlines = $designer->filterBy('isBlockStart', '==', true);
 ```
 
-[Read more on filtering](https://kirby.hananils.test/plugins/designer/filtering-elements).
+[Read more on filtering](https://kirby.hananils.de/plugins/designer/filtering-elements).
 
 ### Conditional layouts: x-ray your field output
 
@@ -55,7 +55,7 @@ As web developer, you never know the final content you have to layout and thus h
 <?php endif ?>
 ```
 
-[Read more about how to work with the DOM](https://kirby.hananils.test/plugins/designer/working-with-the-dom).
+[Read more about how to work with the DOM](https://kirby.hananils.de/plugins/designer/working-with-the-dom).
 
 ### Enhanced snippets
 
@@ -87,7 +87,7 @@ If you have field output that you’d like to enhance with more complex layouts,
 $page->text()->designer()->snippets('elements');
 ```
 
-[Read more about Designer’s extended snippets options](https://kirby.hananils.test/plugins/designer/changing-html-with-snippets).
+[Read more about Designer’s extended snippets options](https://kirby.hananils.de/plugins/designer/changing-html-with-snippets).
 
 ## Use-cases
 
@@ -100,7 +100,7 @@ With all this at hand, these are the most common use-cases for Designer:
 - re-using content in different hierarchical contexts
 - normalizing whitespace (collapsing and trimming, either globally or custom tailored)
 
-Get into using Designer by reading [more about the basic concepts](https://kirby.hananils.test/plugins/designer/getting-started) and [how to start using it](https://kirby.hananils.test/plugins/designer/initialising-designer).
+Get into using Designer by reading [more about the basic concepts](https://kirby.hananils.de/plugins/designer/getting-started) and [how to start using it](https://kirby.hananils.de/plugins/designer/initialising-designer).
 
 > \[!important\] Please note that this plugin makes use of the latest `Dom` additions in PHP 8.4 and their extensions in PHP 8.5. Thus **PHP 8.5 is a requirement** for this plugin.
 
