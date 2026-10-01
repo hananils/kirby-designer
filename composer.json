@@ -1,0 +1,42 @@
+{
+    "name": "hananils/kirby-designer",
+    "description": "Designer is a layout tool for your templates. It takes markup from your fields, from static or external sources and let’s you manipulate it with a Kirby-like interface. Need to change headline hierarchy? Need to add a class or extract content? Designer has you covered.",
+    "license": "MIT",
+    "type": "kirby-plugin",
+    "version": "2.0.0",
+    "authors": [
+        {
+            "name": "hana+nils · Büro für Gestaltung",
+            "email": "buero@hananils.de"
+        }
+    ],
+    "homepage": "https://kirby.hananils.de/plugins/designer",
+    "require": {
+        "php": "^8.5",
+        "hananils/document": "dev-main",
+        "hananils/kirby-plugins": "dev-main",
+        "hananils/kirby-fields": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hananils/document.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hananils/kirby-plugins.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hananils/kirby-fields.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hananils\\": "lib"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
